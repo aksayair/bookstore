@@ -37,23 +37,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-```
 
----
-
-## ساختار پوشه‌ها:
-```
-bookstore/
-├── .github/
-│   └── workflows/
-│       └── deploy.yml
-├── src/
-│   ├── App.css
-│   ├── App.jsx
-│   ├── firebase.js
-│   ├── index.css
-│   └── main.jsx
-├── .gitignore
-├── index.html
-├── package.json
-└── vite.config.js
